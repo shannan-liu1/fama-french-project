@@ -7,9 +7,9 @@ The goal of this project was to apply the Fama-French model to forecast the expe
 
 The data on each company's stock prices were sourced from Yahoo Finance and constituted 35 years of daily stock price data.
 
-It was hypothesised that Intel and IBM would produce higher predicted returns because they were smaller companies in terms of market capitalization and had higher book to market values than Apple and Microsoft. 
+It was hypothesised that Intel and IBM would produce higher predicted returns because they were smaller companies in terms of market capitalization and had higher book to market values than Apple and Microsoft (at the time of writing). 
 
 ## Findings and Further Research
 The initial hypothesis was correct as Intel and IBM did produce higher predicted returned returns.
 
-Future areas of exploration could include an analysis of the Carhart Four Factor Model and the Fama-French Five Factor Model.
+Future areas of exploration could include an analysis of the Carhart Four Factor Model or an investigation into the Fama-French Five Factor Model.

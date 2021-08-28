@@ -1,6 +1,15 @@
 # fama-french-project
-Application of the Fama-French 3-factor model to analyse the daily returns of 4 technology companies--Apple, Microsoft, Intel, and IBM--over 35 years. 
+## Background
+The Fama-French Three Factor Model (Fama-French Model) is an expansion of the Capital Asset Pricing Model (CAPM) developed by William F. Sharpe. The purpose of the Fama-French model is to compute the returns of a stock through 3 factors: the Size Premium, Value Premium, and Market Risk Premium. In general, small-cap companies with higher book to market values generate higher returns. 
 
-The historical prices of the stocks were collected from Yahoo Finance and the data on the three Fama-French factors (colloquially known as Size Premium, Value Premium, and Market Risk Premium) were collected from Kenneth French's personal website. After converting historical prices to historical returns, a panel data frame was constructed, and the daily returns were regressed on the Fama-French factors. 
+## Overview
+The goal of this project was to apply the Fama-French model to forecast the expected stock price returns of 4 technology companies 10 days into the future. The companies analysed included Apple, Microsoft, Intel, and IBM. 
 
-Three types of models were applied to the data: a pooled model, a fixed-effects model, and a random effects model. The model was then trained and tested using k-fold cross validation and finally used to forecast the stocks' prices.
+The data on each company's stock prices were sourced from Yahoo Finance and constituted 35 years of daily stock price data.
+
+It was hypothesised that Intel and IBM would produce higher predicted returns because they were smaller companies in terms of market capitalization and had higher book to market values than Apple and Microsoft. 
+
+## Findings and Further Research
+The initial hypothesis was correct as Intel and IBM did produce higher predicted returned returns.
+
+Future areas of exploration could include an analysis of the Carhart Four Factor Model and the Fama-French Five Factor Model.
